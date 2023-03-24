@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  
+}
+
+.child_1{
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: white;
+
+
+}
+.child_1 h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+
+
+
+ 
+    
+    
+  
+}
+form div{
+    width: 100%;
+    margin-bottom: 10px;
+    height: aut0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#english{
+  
+    height: 20px;
+    width: 80%;
+}
+#maths{
+
+    height: 20px;
+    width: 80%;
+}
+#physics{
+  
+    height: 20px;
+    width: 80%;
+
+}
+
+#chemistry{
+    height: 20px;
+    width: 80%;
+
+}
+
+#computer{
+    height: 20px;
+    width: 80%;
+
+}
+
+.child_2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 70% ;
+    background-color:white;
+    border-left: 1px solid black;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+.child_2 div{
+    height: calc(100% / 3);
+
+}
+.child_2 div h3{
+    text-align: center;
+    background-color: rgb(0, 153, 255);
+}
+
+div button{
+    margin-top: 10px;
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+}
+
+button:hover{
+    background-color: black;
+}
